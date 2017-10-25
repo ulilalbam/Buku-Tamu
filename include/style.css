@@ -1,0 +1,136 @@
+body {
+background-color: #f2f2f2;
+color: black;
+margin-top: 0px;
+margin-left: 50px;
+margin-right: 50px;
+font-family: arial;
+font-size: 14px;
+}
+a {
+text-decoration: none;
+color: blue;
+}
+a:hover{
+text-decoration: underline;
+color: green;
+}
+a:link{
+background-color: white;
+}
+div { margin:0; padding:0; clear:both;}
+
+/*untuk data tabel */
+.table-data{
+		width: 100%;
+        padding: 0;
+        margin: 0 auto 1.5em auto;
+		border-top: 1px solid #000000 ;
+        border-left: 1px solid #000000  ;
+        border-collapse:collapse;
+		font-size:12px;
+        font-family: verdana,arial,sans-serif;
+        color:#000000  ;
+        background-color: #f2f2f2;
+}
+.td-data {
+	font: normal 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	border-right: 1px solid #000000  ;
+	border-bottom: 1px solid #000000  ;
+	padding: 3px 6px 3px 6px;
+	color: #000000  ;
+	width: auto;
+	text-align: center;
+    }
+.head-data {
+	font: normal 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	border-right: 1px solid #ccccff  ;
+	border-bottom: 1px solid #ccccff  ;
+	padding: 3px 6px 3px 6px;
+	color: #ccccff  ;
+	width: auto;
+	text-align: center;
+	background-color:#000000  ;
+	font-weight: bold;
+    }
+.pinggir-data{
+	font: normal 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	border-right: 1px solid #000000  ;
+	border-bottom: 1px solid #000000  ;
+	padding: 3px 6px 3px 6px;
+	color: #000000  ;
+	/*width: auto;*/
+	text-align: left;
+    }
+/*akhir data tabel */
+
+input {
+    border-left : 1px solid #000000  ;
+    border-right : 1px solid #000000  ;
+    border-top : 1px solid #000000  ;
+    border-bottom : 1px solid #000000  ;
+    background-color : #ffffff  ;
+    font-size : 12px;
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+    color : #000;
+}
+h3 {
+border-top: solid 1px;
+border-left: solid 1px;
+border-right: solid 1px;
+background-color: #f2f2f2;
+text-align: center;
+font-family: verdana;
+padding: 5 5 5 5;
+margin: 0 0 0 0;
+}
+.kotak {
+border-style: solid;
+border-width: 1px;
+background-color: #ffffff;
+padding: 10 10 10 0;
+margin: 0 0 200 0;
+}
+.kotak ul {
+margin:0px 0px 0px 0px;
+list-style-image:url(../image/folder.jpg);
+}
+.kotak ul li a{
+margin:0px 0px 0px 0px;
+text-decoration: none;
+}
+.kotak ul li a:hover{
+margin:0px 0px 0px 0px;
+text-decoration: underline;
+}
+.tengah {
+font: normal 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+border-style: solid;
+border-width: 1px;
+background-image :url(../image/background3.jpg);
+background-size: 670px 430px;
+padding: 10 10 300 10;
+margin: 1 1 1 1;
+}
+.s {
+font-size: 20;
+text-align: center;
+font-family: monotype corsiva;
+}
+.link_atas {
+text-align: left;
+border: solid 1px #d0d0d0;
+background-color:#ccccff;
+padding: 4 4 4 5;
+margin: 0 2 10 0;
+}
+h5{
+margin: 10 10 10 10;
+padding: 5 5 5 5;
+background-color: #d0d0d0;
+border: solid 1px green;
+}
+.img_link {
+	border: none;
+	padding: 0px;
+}
